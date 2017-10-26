@@ -12,7 +12,7 @@ $blue-github: #0090ff;
   border-right: .15em solid $blue-github;
   white-space: nowrap;
   margin: 0 auto; // Gives that scrolling effect as the typing happens
-  letter-spacing: .15em;
+  letter-spacing: .10em;
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
