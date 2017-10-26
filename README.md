@@ -13,7 +13,7 @@
         if(let direction = action.isMovement()) {
           Armfoot.jump(direction);
         } else {
-          switch(action.interaction) {
+          switch(action) {
             case 'wave':
             case 'type':
             case 'play the piano':
@@ -34,4 +34,4 @@
       }
     });
     
-Version 1.0 (fork needed)
+Version 1.0.1 (fork needed)
